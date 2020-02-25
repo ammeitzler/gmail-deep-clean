@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons.css">
+
+<script>
+  
+  function closeWindow() {
+    google.script.host.close();
+  }
+  
+  function showError(error) {
+    document.getElementById("error").innerHTML = error;
+  }
+
+  function validate() {
+    google.script.run.withSuccessHandler(showError).saveConfig();
+  }
+
+</script>
+
+<form>
+    <p>
+        <input class="blue" type="button" value="Start" onclick="validate()" />
+        <input class="red" type="button" value="Exit" onclick="google.script.host.close()" />
+    </p>
+    <div class="block">
+        <a href="mailto:ammeitzler@gmail.com" style="width:120px;">ammeitzler@gmail.com</a><br>
+        <a href="https://twitter.com/angiefromspace" style="width:120px;margin-right:10px">tweet tweet</a>
+    </div>
+    <p class="error" id="error"></p>
+</form>
+
+
