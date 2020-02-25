@@ -1,1 +1,2 @@
+Set-up instructions can be found <a href="https://medium.com/@ammeitzler/gmail-deep-clean-296a376f2ab7" target="_blank">here</a></br>
 Written by Angeline Marie Michael Meitzler based on work by <a href="https://ctrlq.org/" target="_blank">Amit Agarwal</a>
